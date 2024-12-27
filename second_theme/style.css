@@ -1,0 +1,415 @@
+/* 
+Theme Name: My Second Theme
+Author: Bharathiragav
+Description: A basic theme built from scratch
+Version: 1.0
+Text Domain: my-first-theme
+*/
+
+/* Your existing CSS code starts here */
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container for All Content */
+.v20_8 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+.v20_9 {
+    position: absolute;
+    width: 1428px;
+    height: 48px;
+    left: 0;
+    top: 52px;
+    background: #7AB7D6;
+}
+
+.v20_10 {
+    position: absolute;
+    width: 82px;
+    height: 29px;
+    left: 1158px;
+    top: 57px;
+    font-family: 'Inria Serif', serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #F7EF1B;
+}
+
+.v20_11 {
+    position: absolute;
+    text-align: center;
+    height: 38px;
+    top: 57px;
+    font-family: 'Tahoma', serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #000;
+}
+
+/* Search Box */
+.v20_13 {
+    position: absolute;
+    width: 161px;
+    height: 36px;
+    left: 1094px;
+    top: 115px;
+}
+
+.v20_14, .v20_15 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #DCD9D9;
+    border-radius: 22px;
+}
+
+.v20_15 {
+    position: relative;
+    width: 161px;
+    height: 36px;
+    background: #DCD9D9;
+    border-radius: 22px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    justify-content: flex-start;
+}
+
+.search-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.v20_16 {
+    font-family: 'Inria Serif', serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #787878;
+}
+
+/* Menu */
+.menu-bar {
+    position: absolute;
+    width: 33px;
+    height: 25px;
+    right: 1142px;
+    top: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-bar img {
+    width: 100%; /* Ensure the image fits the container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Menu Bar */
+/* .menu-bar {
+    position: absolute;
+    width: 33px;
+    height: 25px;
+    right: 1142px;
+    top: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.menu-bar img {
+    width: 100%;
+    height: auto;
+} */
+
+/* Menu Items Container */
+.menu-items {
+    position: absolute;
+    top: 40px; /* Adjust based on menu-bar position */
+    right: 1042px; /* Align with menu-bar */
+    width: 200px;
+    background: #f98339;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0.3s, opacity 0.3s;
+}
+
+.menu-items ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-items ul li {
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.menu-items ul li:last-child {
+    border-bottom: none;
+}
+
+.menu-items ul li a {
+    text-decoration: none;
+    color: #333;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+
+.menu-items ul li a:hover {
+    color: #007BFF;
+}
+
+/* Footer Links */
+.menu-footer {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    background: #ECECEC;
+}
+
+.menu-footer a {
+    text-decoration: none;
+    color: #007BFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+}
+
+/* Menu Visibility Classes */
+.hidden {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.visible {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+
+/* Main Description */
+.v20_17 {
+    position: absolute;
+    /* width: 102px; */
+    height: 29px;
+    text-align: center;
+    right: 510px;
+    top: 5px;
+    font-family: "Brush Script MT", cursive;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 29px;
+    color: #000;
+}
+
+/* Main Image Section */
+.v20_18 {
+    position: absolute;
+    width: 213px;
+    height: 51px;
+    left: 600px;
+    top: 174px;
+    background-color: #fcfcfc;
+    /* background: url('image.png'); */
+}
+
+.v20_19 {
+    position: absolute;
+    width: 598px;
+    text-align: center;
+    height: 78px;
+    /* left: 339px; */
+    top: 260px;
+    font-family: 'Cursive', Arial, Helvetica, sans-serif;
+    font-weight: auto;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    color: #000;
+}
+
+/* Button Styles */
+/* .v20_20 {
+    position: absolute;
+    width: 643px;
+    height: 59px;
+    left: 333px;
+    top: 412px;
+    background: #F2CEBF;
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    background-position: auto;
+    background-size: auto;
+} */
+
+.v20_20 {
+    position: absolute;
+    width: 683px;
+    height: 59px;
+    left: 333px;
+    top: 412px;
+    background: #F2CEBF;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.v20_21 {
+    position: absolute;
+    width: 80px;
+    height: 59px;
+    left: 980px;
+    top: 412px;
+    background: #FCA849;
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    background-position: auto;
+    padding: 13px;
+    margin-left: 15px;
+    /* padding-right: 25px; */
+}
+
+
+/* .ingress-image {
+    max-width: 90%; 
+    max-height: 90%; 
+    border-radius: 8px;
+} */
+
+
+
+/* Search */
+.v20_21 {
+    position: absolute;
+    width: 80px;
+    height: 59px;
+    left: 1026px;
+    top: 412px;
+    background: #FCA849;
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.v20_22 {
+    position: absolute;
+    width: 225px;
+    height: 24px;
+    left: 350px;
+    top: 429px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #7D7D7D;
+    opacity: 0.8;
+}
+
+
+/* Card Section */
+#crm_1 {
+    position: absolute;
+    width: 102px;
+    height: 102px;
+    left: 229px;
+    top: 629px;
+    border-radius: 22px;
+    border: solid 2px;
+    border-color: coral;
+}
+
+#mail1 {
+    position: absolute;
+    width: 102px;
+    height: 102px;
+    left: 476px;
+    top: 629px;
+    border-radius: 22px;
+    border: solid 2px;
+    border-color: coral;
+}
+
+
+#next1 {
+    position: absolute;
+    width: 102px;
+    height: 102px;
+    left: 723px;
+    top: 629px;
+    border-radius: 22px;
+    border: solid 2px;
+    border-color: coral;
+}
+
+#insight1 {
+    position: absolute;
+    width: 102px;
+    height: 102px;
+    left: 970px;
+    top: 629px;
+    border-radius: 22px;
+    border: solid 2px;
+    border-color: coral;
+}
+
+/* Footer Navigation Links */
+.v20_27, .v20_28, .v20_29, .v20_36 {
+    position: absolute;
+    font-family: 'Inria Serif', serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #000;
+    text-decoration: underline;
+    width: 102px;
+    top: 751px;
+}
+
+.v20_27 {
+    left: 225px;
+}
+
+.v20_28 {
+    left: 476px;
+}
+
+.v20_29 {
+    left: 725px;
+}
+
+.v20_36 {
+    left: 975px;
+}
