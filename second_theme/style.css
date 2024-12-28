@@ -6,7 +6,10 @@ Version: 1.0
 Text Domain: my-first-theme
 */
 
+
+
 /* Your existing CSS code starts here */
+
 /* General Reset */
 * {
     margin: 0;
@@ -76,25 +79,7 @@ body {
     top: 115px;
 }
 
-.v20_14, .v20_15 {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: #DCD9D9;
-    border-radius: 22px;
-}
 
-.v20_15 {
-    position: relative;
-    width: 161px;
-    height: 36px;
-    background: #DCD9D9;
-    border-radius: 22px;
-    display: flex;
-    align-items: center;
-    padding-left: 10px;
-    justify-content: flex-start;
-}
 
 .search-icon {
     width: 20px;
@@ -108,7 +93,7 @@ body {
     font-size: 20px;
     line-height: 24px;
     color: #787878;
-}
+} 
 
 /* Menu */
 .menu-bar {
@@ -123,33 +108,16 @@ body {
 }
 
 .menu-bar img {
-    width: 100%; /* Ensure the image fits the container */
-    height: auto; /* Maintain aspect ratio */
+    width: 100%; 
+    height: auto; 
 }
 
-/* Menu Bar */
-/* .menu-bar {
-    position: absolute;
-    width: 33px;
-    height: 25px;
-    right: 1142px;
-    top: 1px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-}
-
-.menu-bar img {
-    width: 100%;
-    height: auto;
-} */
 
 /* Menu Items Container */
 .menu-items {
     position: absolute;
-    top: 40px; /* Adjust based on menu-bar position */
-    right: 1042px; /* Align with menu-bar */
+    top: 40px;
+    right: 1042px; 
     width: 200px;
     background: #f98339;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -162,6 +130,23 @@ body {
     opacity: 0;
     transition: visibility 0.3s, opacity 0.3s;
 }
+
+.menu-items {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+}
+
+.menu-items.visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+.menu-items.hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
 
 .menu-items ul {
     list-style: none;
@@ -189,20 +174,6 @@ body {
     color: #007BFF;
 }
 
-/* Footer Links */
-.menu-footer {
-    padding: 10px 20px;
-    display: flex;
-    justify-content: space-between;
-    background: #ECECEC;
-}
-
-.menu-footer a {
-    text-decoration: none;
-    color: #007BFF;
-    font-family: 'Inter', sans-serif;
-    font-size: 14px;
-}
 
 /* Menu Visibility Classes */
 .hidden {
@@ -258,19 +229,6 @@ body {
     color: #000;
 }
 
-/* Button Styles */
-/* .v20_20 {
-    position: absolute;
-    width: 643px;
-    height: 59px;
-    left: 333px;
-    top: 412px;
-    background: #F2CEBF;
-    border-radius: 8px;
-    background-repeat: no-repeat;
-    background-position: auto;
-    background-size: auto;
-} */
 
 .v20_20 {
     position: absolute;
@@ -278,11 +236,12 @@ body {
     height: 59px;
     left: 333px;
     top: 412px;
-    background: #F2CEBF;
+    background: #c87b5a;
     border-radius: 8px;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #e58d3b;
 }
 
 
@@ -301,12 +260,6 @@ body {
     /* padding-right: 25px; */
 }
 
-
-/* .ingress-image {
-    max-width: 90%; 
-    max-height: 90%; 
-    border-radius: 8px;
-} */
 
 
 
@@ -413,3 +366,307 @@ body {
 .v20_36 {
     left: 975px;
 }
+.v20_20 {
+    position: absolute;
+    width: 683px;
+    height: 59px;
+    left: 333px;
+    top: 412px;
+    background: #F2CEBF;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-form {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding-right: 100px;
+    right: 100px;
+}
+
+.search-form input {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px 10px;
+    font-size: 14px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.search-form .search-button {
+    background: #FCA849;
+    border: none;
+    padding: 5px 10px;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 8px;
+}
+
+.search-results {
+    margin-top: 20px;
+    padding: 10px;
+    background: #F5F5F5;
+    border-radius: 4px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: #333;
+}
+
+.hidden {
+    display: none;
+}
+
+
+
+.v20_links {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; /* Centers the items horizontally */
+    gap: 10px; /* Adds space between items */
+    width: 100%; 
+    position: relative; 
+    top: 790px; 
+    color: #e58d3b;
+    margin: 0 auto; /* Centers the container */
+    padding: 20px;
+    background: #FFFFFF;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.v20_links a {
+    text-decoration: none; 
+    color: inherit;
+    font-family: 'Inter', sans-serif; 
+    font-size: 16px; 
+    text-align: center; 
+    padding: 10px; 
+    margin-left: 20px;
+    width: calc(100% / 8 - 40px); /* Adjust width for 8 items */
+    max-width: 230px; 
+    background: #ffffff; 
+    border-radius: 8px; 
+}
+
+/* For the second line of 5 items */
+.v20_links a:nth-child(n+8) {
+    width: calc(100% / 5 - 20px); /* Adjust width for second line */
+}
+
+/* Add some responsive behavior */
+@media screen and (max-width: 768px) {
+    .v20_links a {
+        width: calc(100% / 4 - 40px); /* Show 4 items per row on smaller screens */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .v20_links a {
+        width: calc(100% / 2 - 40px); /* Show 2 items per row on very small screens */
+    }
+}
+
+
+
+
+.menu-footer {
+    position: fixed; 
+    bottom: 0; 
+    left: 0; 
+    width: 100%; 
+    padding: 10px 20px; 
+    display: flex; 
+    flex-direction: column; 
+
+    z-index: 1000; 
+}
+
+.menu-footer a {
+    text-decoration: none; 
+    color: #007BFF; 
+    font-family: 'Inter', sans-serif; 
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+
+.search-input {
+    width: 80%;
+    height: 30px;
+    padding: 5px;
+    border: 1px solid #6e95be;
+    border-radius: 4px;
+}
+
+.search-button {
+    margin-left: 10px;
+    padding: 5px 15px;
+    background-color: #FCA849;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.search-button:hover {
+    background-color: #e58d3b;
+}
+
+/* Second Search Option*/
+
+.v20_20 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; 
+    margin: 20px auto; 
+    max-width: 600px; 
+}
+
+.search-input {
+    width: 70%; 
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none; 
+    transition: border-color 0.3s;
+}
+
+.search-input:focus {
+    border-color: #0078d7;
+}
+
+.-buttonsearch {
+    padding: 8px 20px; 
+    font-size: 16px;
+    background-color: #f0882c;
+    color: white; 
+    border: none; 
+    border-radius: 10px; 
+    cursor: pointer;
+    transition: background-color 0.3s; 
+}
+
+
+.search-results {
+    margin: 20px auto; 
+    max-width: 600px; 
+    background-color: #d19292;
+    padding: 20px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: none; 
+}
+
+.search-results.hidden {
+    display: none; 
+}
+
+#errorMessage {
+    color: red;
+    font-size: 16px;
+    text-align: center; 
+    margin: 10px 0;
+}
+
+#errorMessage.hidden {
+    display: none; 
+}
+
+
+/* Default Hidden State */
+.hidden {
+    display: none;
+}
+
+/* Styling for the error message */
+#errorMessage {
+    color: red;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* About Us Section */
+.about-us {
+    /* background-color: #f4f4f4; */
+    padding: 40px 20px;
+    margin-top: 40px; 
+    text-align: center; 
+    border-radius: 10px; 
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  */
+    padding-top: 800px;
+}
+
+.about-us h2 {
+    font-size: 36px; 
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.about-us p {
+    font-size: 18px; 
+    /* color: #666;  */
+    line-height: 1.6; 
+    margin-bottom: 20px;
+    max-width: 800px; 
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.about-us ul {
+    list-style-type: disc;
+    padding-left: 40px; 
+    /* color: #555;  */
+}
+
+.about-us li {
+    font-size: 16px; 
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .about-us h2 {
+        font-size: 28px;
+    }
+
+    .about-us p {
+        font-size: 16px;
+    }
+}
+
+
+
+/* Initially, the image is visible but starts hidden during the animation */
+img[alt="company_logo"] {
+    visibility: visible;
+}
+
+/* Animation for rotating and zooming the image */
+.rotate-zoom {
+    animation: rotateZoom 1s ease-in-out forwards;
+}
+
+@keyframes rotateZoom {
+    0% {
+        transform: rotate(0deg) scale(1);
+        visibility: hidden;
+    }
+    50% {
+        transform: rotate(-180deg) scale(1.2); /* Counterclockwise rotation */
+        visibility: visible;
+    }
+    100% {
+        transform: rotate(-360deg) scale(1); /* Full counterclockwise rotation */
+        visibility: visible;
+    }
+}
+
+
