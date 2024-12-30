@@ -119,7 +119,7 @@ body {
     top: 40px;
     right: 1042px; 
     width: 200px;
-    background: #f98339;
+    background: #b2d1fa;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     overflow: hidden;
@@ -210,7 +210,7 @@ body {
     height: 51px;
     left: 600px;
     top: 174px;
-    background-color: #fcfcfc;
+    background-color: #f4f4f4;
     /* background: url('image.png'); */
 }
 
@@ -429,13 +429,197 @@ body {
     width: 100%; 
     position: relative; 
     top: 790px; 
-    color: #e58d3b;
+    /* Global reset for body */
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+      }
+      
+      /* Main Container for Sections */
+      .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 50px;
+        width: 100%;
+      }
+      
+      /* Section Styles for each Application Box */
+      .section {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        background: #d8e8ff;
+        width: 50%; /* Box width */
+        margin: 25px 0;
+        border-radius: 10px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        box-sizing: border-box;
+        text-align: center;
+      }
+      
+      /* Image Wrapper Styles */
+      .image-wrapper {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+      
+      
+      /* Image inside the wrapper */
+      .image-wrapper img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+      
+      /* Text Content Styles */
+      .text-content {
+        flex: 1; /* Allows text content to take the remaining space */
+      }
+      
+      .text-content h2 {
+        font-size: 24px;
+        color: #333;
+        margin-bottom: 10px;
+      }
+      
+      .text-content p {
+        font-size: 16px;
+        /* Global reset for body */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+          }
+          
+          /* Main Container for Sections */
+          .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 50px;
+            width: 100%;
+          }
+          
+          /* Section Styles for each Application Box */
+          .section {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-start;
+            background: #d8e8ff;
+            width: 50%; /* Box width */
+            margin: 25px 0;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            box-sizing: border-box;
+            text-align: center;
+          }
+          
+          /* Image Wrapper Styles */
+          .image-wrapper {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+          }
+          
+          
+          /* Image inside the wrapper */
+          .image-wrapper img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+          }
+          
+          /* Text Content Styles */
+          .text-content {
+            flex: 1; /* Allows text content to take the remaining space */
+          }
+          
+          .text-content h2 {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 10px;
+          }
+          
+          .text-content p {
+            font-size: 16px;
+            color: #666;
+          }
+          
+          /* App Overview Section (Last Section) */
+          .app-overview {
+            width: 80%;
+            /* background: #cacaca; */
+            margin-top: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+          }
+          
+          .learn-more-btn {
+            padding: 12px 24px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+          }
+          
+          .learn-more-btn:hover {
+            background-color: #0056b3;
+          }
+          
+        
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        text-align: center;
+      }
+      
+      .learn-more-btn {
+        padding: 12px 24px;
+        background-color: #007BFF;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+      
+      .learn-more-btn:hover {
+        background-color: #0056b3;
+      }
+      
+    
+    color: #fa773b;
     margin: 0 auto; /* Centers the container */
     padding: 20px;
-    background: #FFFFFF;
+    /* background: #e8e6e6; */
     text-align: center;
     margin-left: 50px;
     margin-right: 50px;
+    width: 85%;
+    left: 40px;
 }
 
 .v20_links a {
@@ -447,8 +631,8 @@ body {
     padding: 10px; 
     margin-left: 20px;
     width: calc(100% / 8 - 40px); /* Adjust width for 8 items */
-    max-width: 230px; 
-    background: #ffffff; 
+    max-width: 190px; 
+    /* background: #ffffff;  */
     border-radius: 8px; 
 }
 
@@ -470,14 +654,11 @@ body {
     }
 }
 
-
-
-
 .menu-footer {
     position: fixed; 
     bottom: 0; 
     left: 0; 
-    width: 100%; 
+    width: 40%; 
     padding: 10px 20px; 
     display: flex; 
     flex-direction: column; 
@@ -491,6 +672,7 @@ body {
     font-family: 'Inter', sans-serif; 
     font-size: 14px;
     margin: 5px 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 
@@ -545,7 +727,7 @@ body {
 .-buttonsearch {
     padding: 8px 20px; 
     font-size: 16px;
-    background-color: #f0882c;
+    background-color: #93e5f7;
     color: white; 
     border: none; 
     border-radius: 10px; 
@@ -603,6 +785,7 @@ body {
     border-radius: 10px; 
     /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  */
     padding-top: 800px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .about-us h2 {
@@ -641,8 +824,105 @@ body {
         font-size: 16px;
     }
 }
-
-
+/* Global reset for body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  /* Main Container for Sections */
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    width: 100%;
+  }
+  
+  /* Section Styles for each Application Box */
+  .section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    background: #d8e8ff;
+    width: 50%; /* Box width */
+    margin: 25px 0;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    transition: transform 0.3s ease; /* Smooth transition for zoom effect */
+  }
+  
+  /* Hover effect to zoom the box */
+  .section:hover {
+    transform: scale(1.05); /* Scale the box by 5% when hovered */
+  }
+  
+  /* Image Wrapper Styles */
+  .image-wrapper {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  /* Image inside the wrapper */
+  .image-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  
+  /* Text Content Styles */
+  .text-content {
+    flex: 1; /* Allows text content to take the remaining space */
+  }
+  
+  .text-content h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .text-content p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  /* App Overview Section (Last Section) */
+  .app-overview {
+    width: 80%;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .learn-more-btn {
+    padding: 12px 24px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .learn-more-btn:hover {
+    background-color: #0056b3;
+  }
+  
 
 /* Initially, the image is visible but starts hidden during the animation */
 img[alt="company_logo"] {
@@ -668,5 +948,3 @@ img[alt="company_logo"] {
         visibility: visible;
     }
 }
-
-
