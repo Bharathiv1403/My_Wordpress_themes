@@ -83,5 +83,3 @@ document.getElementById("searchButton").addEventListener("click", function() {
         document.getElementById("searchResults").innerHTML = "<p>Sent application</p>"; // Only show "Sent application" message
     }
 });
-
-
