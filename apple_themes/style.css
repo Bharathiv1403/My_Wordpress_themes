@@ -1,0 +1,15 @@
+/*
+Theme Name: Apple Drop
+Theme URI: http://example.com/apple-drop
+Author: Bharathi V
+Description: A custom WordPress theme for Apple Drop.
+Version: 1.0
+Text Domain: apple-drop
+*/
+
+/* Basic reset and global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,566 @@
+body{
+  /* background-color: #234982; */
+  height: auto;
+  
+}
+
+/* General Reset for Position Absolute */
+.pos-abs {
+  position: absolute;
+}
+
+/* Common Styles */
+.font-manrope {
+  font-family: 'Manrope', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* Adjusted for better consistency */
+  display: flex;
+  align-items: center;
+}
+
+/* Rectangle */
+.rectangle-1-14 {
+  width: 100%;
+  max-width: 1500px; 
+  background: #234982; 
+  padding: 25px 20px ;
+  position: fixed;
+  display: flex;
+
+}
+
+.main-menu{
+  background-color: #234982;
+  padding: 1px 5px;
+  /* position: fixed; */
+  display: flex;
+}
+/* Vertical Divider */
+.rectangle-1-14.divider {
+  width: 1px;
+  height: 40px; 
+  background: #E0E0E0;
+  margin: 15px; 
+  position: fixed;
+  display: flex;
+}
+
+/* Phone Number */
+.c-91-81248-14525-18 {
+  width: 100%;
+  height: 14px;
+  left: 90px;
+  top: 13px;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+/* Email */
+.examplecoolairc-116 {
+  width: 100%;
+  height: 12px;
+  top: 0px;
+  color: #ffffff;
+  font-size: 14px;
+  left: 280px;
+  top: 13px;
+}
+
+/* Working Hours */
+.mon--fri-0800---117 {
+  width: 100%;
+  height: 13px;
+  left: 490px;
+  top: 13px;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+/* Shared styles for small icons */
+#phone-logo, 
+#mail-logo,
+#time-logo {
+  width: 30px; 
+  height: 30px;
+  object-fit: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 100;
+}
+
+/* Default positions for larger screens */
+#phone-logo {
+  left: 60px;
+  top: -45px;
+}
+
+#mail-logo {
+  left: 250px;
+  top: -45px;
+}
+
+#time-logo {
+  left: 460px;
+  top: -45px;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 1200px) {
+  #phone-logo {
+    left: 20px; /* Adjust icon position for smaller screens */
+    top: 10px;
+  }
+
+  #mail-logo {
+    left: 180px;
+    top: 10px;
+  }
+
+  #time-logo {
+    left: 300px;
+    top: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #phone-logo,
+  #mail-logo,
+  #time-logo {
+    width: 16px; /* Reduce icon size */
+    height: 16px;
+  }
+
+  #phone-logo {
+    left: 10px;
+    top: 15px;
+  }
+
+  #mail-logo {
+    left: 80px;
+    top: 15px;
+  }
+
+  #time-logo {
+    left: 160px;
+    top: 15px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #phone-logo,
+  #mail-logo,
+  #time-logo {
+    width: 12px; /* Further reduce icon size */
+    height: 12px;
+  }
+
+  #phone-logo {
+    left: 5px;
+    top: 20px;
+  }
+
+  #mail-logo {
+    left: 50px;
+    top: 20px;
+  }
+
+  #time-logo {
+    left: 100px;
+    top: 20px;
+  }
+}
+
+
+/* Logo */
+#company-logo {
+  width: 180px; /* Small icon size */
+  height: 180px;
+  object-fit: contain;
+  justify-content: center;
+  align-items: center;
+  top: 20% ;
+  z-index: 150;
+  left: 50px;
+}
+
+/* Navbar Links */
+.navbar div {
+  position: absolute;
+}
+
+.navbar a,
+.navbar span {
+  color: #ffffff;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.contact-1033 {
+  color: #ffffff;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  right: 550px;
+  z-index: 100;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* Dropdown Arrows */
+.chevron-down-40107 img,
+.chevron-down-40108 img,
+.chevron-down-40110 img,
+.chevron-down-40112 img {
+  width: 16.9px;
+  height: 16px;
+  position: absolute;
+  z-index: 100;
+  top: 30px;
+}
+
+/* Default positions for larger screens */
+.chevron-down-40107 img {
+  left: 310px;
+}
+
+.chevron-down-40108 img {
+  left: 400px;
+}
+
+.chevron-down-40110 img {
+  left: 518px;
+}
+
+.chevron-down-40112 img {
+  left: 715px;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 1200px) {
+  .chevron-down-40107 img {
+    left: 230px; /* Adjust position */
+  }
+
+  .chevron-down-40108 img {
+    left: 300px;
+  }
+
+  .chevron-down-40110 img {
+    left: 380px;
+  }
+
+  .chevron-down-40112 img {
+    left: 500px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .chevron-down-40107 img,
+  .chevron-down-40108 img,
+  .chevron-down-40110 img,
+  .chevron-down-40112 img {
+    width: 14px; /* Reduce size */
+    height: 14px;
+  }
+
+  .chevron-down-40107 img {
+    left: 150px;
+  }
+
+  .chevron-down-40108 img {
+    left: 220px;
+  }
+
+  .chevron-down-40110 img {
+    left: 300px;
+  }
+
+  .chevron-down-40112 img {
+    left: 400px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .chevron-down-40107 img,
+  .chevron-down-40108 img,
+  .chevron-down-40110 img,
+  .chevron-down-40112 img {
+    width: 12px; /* Further reduce size */
+    height: 12px;
+  }
+
+  .chevron-down-40107 img {
+    left: 100px;
+  }
+
+  .chevron-down-40108 img {
+    left: 150px;
+  }
+
+  .chevron-down-40110 img {
+    left: 200px;
+  }
+
+  .chevron-down-40112 img {
+    left: 250px;
+  }
+}
+
+
+/* Navbar Parent */
+.head-navbar {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 20px;
+  top: 5%;
+  z-index: 100;
+  width: 100%;
+}
+
+
+/* Social Icons Container */
+.social-icons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  position: fixed; /* Fix the position relative to the viewport */
+  top: 20px; /* Distance from the top of the viewport */
+  left: 50%;
+  transform: translateX(-50%); /* Center horizontally */
+  z-index: 1000; /* Ensure icons stay on top */
+}
+/* Social Media Icons */
+.facebook-118 img,
+.x-119 img,
+.youtube-122 img,
+.pinterest-120 img,
+.instagram-121 img {
+  width: 24px; /* Fixed size for icons */
+  height: 24px;
+  object-fit: contain;
+}
+
+/* Individual Icon Wrappers */
+.facebook-118,
+.x-119,
+.youtube-122,
+.pinterest-120,
+.instagram-121 {
+  position: absolute; /* Use absolute positioning for these icons */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 23px; /* Adjust top position if needed */
+}
+
+/* Position adjustments */
+.facebook-118 {
+  left: 1100px; /* Fixed position from the left */
+}
+
+.x-119 {
+  left: 1150px; /* Fixed position from the left */
+}
+
+.youtube-122 {
+  left: 1200px; /* Fixed position from the left */
+}
+
+.pinterest-120 {
+  left: 1250px; /* Fixed position from the left */
+}
+
+.instagram-121 {
+  left: 1300px; 
+}
+
+
+/* Navbar Container */
+.head-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  height: 310px; 
+  /* background-color: rgba(216, 216, 216, 0.85);  */
+  padding: 15px 30px;
+  font-family: 'Manrope', sans-serif;
+  position: fixed;
+  top: -6%;
+  width: 100%; /* Ensures the navbar spans the entire width */
+  z-index: 100;
+  box-sizing: border-box; /* Includes padding and borders in the height/width */
+  overflow: hidden; /* Prevents content from spilling out */
+}
+
+.head-dropdown-arrow{
+  height: 10px;
+  width: 10px;
+  padding-left: 10px;
+}
+
+/* Left Navbar Section (Empty, for alignment purposes) */
+.head-left-navbar {
+  flex: 1; /* Takes up space to push other items */
+}
+
+/* Center Navbar Section */
+.head-center-navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Spacing between menu items */
+}
+
+/* Right Navbar Section (Logo) */
+.head-right-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex: 1;
+}
+
+.image-logo img {
+  max-height: 100%; 
+  max-width: auto;
+  object-fit: contain;
+  height: 100%;
+  width: auto;
+}
+
+.image-logo {
+  height: 100%; 
+  display: flex;
+  align-items: center;
+}
+
+/* General link styles */
+.head-navbar a,
+.head-navbar span {
+  /* color: #ffffff; */
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.head-navbar a:hover,
+.head-navbar span:hover {
+  color: #00aaff; /* Hover color */
+}
+
+/* Dropdown Parent Containers */
+.pages-main,
+.services-main,
+.blog-main,
+.projects-main,
+.schedule-main {
+  position: relative;
+  
+}
+
+/* Dropdown Menu Styles */
+.nav-dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%; /* Position below the parent menu item */
+  left: 0;
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 3px 0;
+  z-index: 10000;
+  border-radius: 5px;
+  min-width: 180px;
+}
+
+/* Dropdown Menu Links */
+.nav-dropdown-menu a {
+  display: block;
+  padding: 10px 15px;
+  color: #0a2540;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  transition: all 0.3s ease;
+}
+
+.nav-dropdown-menu a:hover {
+  background-color: rgba(0, 170, 255, 0.1); /* Hover background */
+  color: #00aaff; /* Highlight color */
+  border-radius: 3px;
+}
+
+/* Show Dropdown on Hover */
+.pages-main:hover .nav-dropdown-menu,
+.services-main:hover .nav-dropdown-menu,
+.blog-main:hover .nav-dropdown-menu {
+  display: block;
+  
+}
+
+/* Schedule Now Button */
+.schedule-main span {
+  background-color: #234982;
+  color: #ffffff;
+  padding: 8px 20px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.schedule-main span:hover {
+  background-color: #234982;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .head-navbar {
+      flex-wrap: wrap;
+      padding: 10px 20px;
+  }
+
+  .head-center-navbar {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+  }
+
+  .head-right-navbar {
+      justify-content: center;
+      margin-top: 10px;
+  }
+
+  .nav-dropdown-menu {
+      position: relative;
+      width: 100%;
+      box-shadow: none;
+  }
+
+  .nav-dropdown-menu a {
+      padding: 12px;
+      text-align: left;
+  }
+
+  .schedule-main span {
+      display: inline-block;
+      margin-top: 10px;
+  }
+
+  .image-logo img {
+      margin-top: 10px;
+  }
+}

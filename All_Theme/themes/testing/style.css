@@ -1,0 +1,373 @@
+/* Theme Name: Testing AC theme
+   Description: A custom WordPress theme for AC.
+   Author: Your Name
+   Version: 1.0
+*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+.rectangle-48-6432 {
+    width: 100%;
+    height: 5.78%;
+    top: 94.22%;
+    left: 0%;
+    z-index: 164;
+    transform: rotate(0deg);
+    background: #0a2540ff;
+    }
+    .company-6948 {
+    width: 8.75%;
+    height: 0.29%;
+    top: 95.25%;
+    left: 38.13%;
+    z-index: 180;
+    transform: rotate(0deg);
+    text-align: left;
+    line-height: 0px;
+    }
+    .company-6948-0,
+    .services-6949-0 {
+    font-size: calc(28 * var(--ratio));
+    line-height: calc(30 * var(--ratio));
+    font-family: Inter;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: none;
+    white-space: pre-wrap;
+    color: #ffffffff;
+    }
+    .services-6949 {
+    width: 7.92%;
+    height: 0.29%;
+    top: 95.25%;
+    left: 53.26%;
+    z-index: 176;
+    transform: rotate(0deg);
+    text-align: left;
+    line-height: 0px;
+    }
+    .c-24-hours--emerg-6950 {
+    width: 15.28%;
+    height: 0.29%;
+    top: 95.25%;
+    left: 68.89%;
+    z-index: 178;
+    transform: rotate(0deg);
+    text-align: left;
+    line-height: 0px;
+    }
+    .c-24-hours--emerg-6950-0 {
+    font-size: calc(18 * var(--ratio));
+    line-height: calc(30 * var(--ratio));
+    font-family: Inter;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: none;
+    white-space: pre-wrap;
+    color: #678fd5ff;
+    }
+    .image-6946 {
+    width: 16.6%;
+    height: 0.42%;
+    top: 95.43%;
+    left: 4.03%;
+    z-index: 169;
+    transform: rotate(0deg);
+    overflow: hidden;
+    }
+    .home-about-us-p-6951 {
+    width: 6.11%;
+    height: 2.65%;
+    top: 95.65%;
+    left: 38.13%;
+    z-index: 177;
+    transform: rotate(0deg);
+    text-align: left;
+    line-height: 0px;
+    }
+    .home-about-us-p-6951-0,
+    .installation-ma-6952-0 {
+    font-size: calc(18 * var(--ratio));
+    line-height: calc(45 * var(--ratio));
+    font-family: Inter;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: none;
+    white-space: normal;
+    color: #ffffffff;
+    }
+    .group-53-7177 {
+    width: 8.47%;
+    height: 2.21%;
+    top: 95.65%;
+    left: 53.26%;
+    z-index: 179;
+    transform: rotate(0deg);
+    }
+    .installation-ma-6952 {
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    z-index: 0;
+    transform: rotate(0deg);
+    text-align: left;
+    line-height: 0px;
+    }
+    .group-54-7580 {
+    width: 4.24%;
+    height: 0.59%;
+    top: 95.79%;
+    left: 68.4%;
+    z-index: 181;
+    transform: rotate(0deg);
+    }
+    .circle-7175 {
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    z-index: 1;
+    transform: rotate(0deg);
+    overflow: hidden;
+    }
+    .phone-7173 {
+    width: 44.26%;
+    height: 43.33%;
+    top: 28.33%;
+    left: 27.87%;
+    z-index: 0;
+    transform: rotate(0deg);
+    overflow: hidden;
+    }
+    .c-929-333-9296-7578 {
+    width: 18.68%;
+    height: 0.43%;
+    top: 95.87%;
+    left: 72.92%;
+    z-index: 183;
+    transform: rotate(0deg);
+    text-align: left;
+    line-height: 0px;
+    }
+    .c-929-333-9296-7578-0 {
+    font-size: calc(34 * var(--ratio));
+    line-height: calc(36 * var(--ratio));
+    font-family: Inter;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: none;
+    white-space: pre-wrap;
+    color: #ffffffff;
+    }
+    .we-specialize-i-6947 {
+    width: 29.31%;
+    height: 1.76%;
+    top: 96.21%;
+    left: 4.03%;
+    z-index: 173;
+    transform: rotate(0deg);
+    text-align: left;
+    line-height: 0px;
+    }
+    .we-specialize-i-6947-0 {
+    font-size: calc(16 * var(--ratio));
+    line-height: calc(30 * var(--ratio));
+    font-family: Inter;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: none;
+    white-space: noraml;
+    color: #ffffffff;
+    }
+    .x377essentialic-7599 {
+    width: 1.36%;
+    height: 0.29%;
+    top: 96.59%;
+    left: 69.03%;
+    z-index: 184;
+    transform: rotate(0deg);
+    }
+    .nodeBg-75100 {
+    opacity: 1;
+    background-image: var(--image-2);
+    }
+    .locationpin-75100 {
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    z-index: 0;
+    transform: rotate(0deg);
+    overflow: hidden;
+    }
+    .office-location-6953 {
+    width: 10.07%;
+    height: 0.29%;
+    top: 96.62%;
+    left: 71.11%;
+    z-index: 182;
+    transform: rotate(0deg);
+    text-align: left;
+    line-height: 0px;
+    }
+    .c-100-s-main-st-l-7156 {
+    width: 16.46%;
+    height: 0.29%;
+    top: 96.9%;
+    left: 68.89%;
+    z-index: 174;
+    transform: rotate(0deg);
+    text-align: left;
+    line-height: 0px;
+    }
+    .email-7174 {
+    width: 2.08%;
+    height: 0.29%;
+    top: 97.53%;
+    left: 69.03%;
+    z-index: 175;
+    transform: rotate(0deg);
+    overflow: hidden;
+    }
+    .send-a-message-7158 {
+    width: 10.9%;
+    height: 0.29%;
+    top: 97.53%;
+    left: 71.6%;
+    z-index: 167;
+    transform: rotate(0deg);
+    text-align: left;
+    line-height: 0px;
+    }
+    .contactcoolairc-7157 {
+    width: 11.04%;
+    height: 0.29%;
+    top: 97.82%;
+    left: 68.96%;
+    z-index: 168;
+    transform: rotate(0deg);
+    text-align: left;
+    line-height: 0px;
+    }
+    .image-75108 {
+    width: 2.08%;
+    height: 0.3%;
+    top: 98.42%;
+    left: 16.53%;
+    z-index: 166;
+    transform: rotate(0deg);
+    overflow: hidden;
+    }
+    .facebook-f-75107 {
+    width: 1.39%;
+    height: 0.2%;
+    top: 98.48%;
+    left: 4.58%;
+    z-index: 190;
+    transform: rotate(0deg);
+    overflow: hidden;
+    }
+    .twitter-75105 {
+    width: 1.39%;
+    height: 0.2%;
+    top: 98.48%;
+    left: 8.61%;
+    z-index: 188;
+    transform: rotate(0deg);
+    overflow: hidden;
+    }
+    .youtube-75104 {
+    width: 1.39%;
+    height: 0.2%;
+    top: 98.48%;
+    left: 12.85%;
+    z-index: 187;
+    transform: rotate(0deg);
+    overflow: hidden;
+    }
+    .tiktok-75106 {
+    width: 1.39%;
+    height: 0.2%;
+    top: 98.48%;
+    left: 21.04%;
+    z-index: 189;
+    transform: rotate(0deg);
+    overflow: hidden;
+    }
+    .line-8-75103 {
+    width: 100.01%;
+    height: 0%;
+    top: 99.16%;
+    left: 0%;
+    opacity: 0.8;
+    z-index: 186;
+    transform: rotate(0deg);
+    box-shadow:
+        inset 0 0 0 0.5px #ffffffff,
+        inset 0 0 0.5px 0 #ffffffff,
+        inset 0 0.5px 0 0 #ffffffff,
+        inset 0.5px 0 0 0 #ffffffff;
+    border-left: 0px solid #ffffffff;
+    border-right: 0px solid #ffffffff;
+    border-top: 0px solid #ffffffff;
+    border-bottom: 0px solid #ffffffff;
+    }
+    .copyright-2024--75109 {
+    width: 19.58%;
+    height: 0.29%;
+    top: 99.37%;
+    left: 4.03%;
+    z-index: 193;
+    transform: rotate(0deg);
+    text-align: left;
+    line-height: 0px;
+    }
+    .copyright-2024--75109-0 {
+    font-size: calc(14 * var(--ratio));
+    line-height: calc(30 * var(--ratio));
+    font-family: Inter;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: none;
+    white-space: normal;
+    color: #ffffffff;
+    }
+    .installation-75112 {
+    width: 7.15%;
+    height: 0.29%;
+    top: 99.43%;
+    left: 67.29%;
+    z-index: 191;
+    transform: rotate(0deg);
+    text-align: left;
+    line-height: 0px;
+    }
+    .maintenance-75113 {
+    width: 8.47%;
+    height: 0.29%;
+    top: 99.43%;
+    left: 77.78%;
+    z-index: 192;
+    transform: rotate(0deg);
+    text-align: left;
+    line-height: 0px;
+    }
+    .repair-75114 {
+    width: 4.17%;
+    height: 0.29%;
+    top: 99.43%;
+    left: 89.17%;
+    z-index: 165;
+    transform: rotate(0deg);
+    text-align: left;
+    line-height: 0px;
+    }

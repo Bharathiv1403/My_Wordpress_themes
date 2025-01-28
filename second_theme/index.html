@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SagaSoft</title>
+    <style>
+        /* General Styles */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        /* Rectangle 6 */
+        .main-container {
+            position: absolute;
+            width: 1354px;
+            height: 3440px;
+            left: 43px;
+            top: 955px;
+            background: #D9D9D9;
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        /* Left Section - Card List */
+        .card-list {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            width: 65%;
+        }
+
+        .card {
+            background: #ffffff;
+            border-radius: 10px;
+            padding: 15px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .card img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+
+        .card-content {
+            font-size: 14px;
+            color: #333;
+        }
+
+        .card-title {
+            font-weight: bold;
+        }
+
+        /* Right Section - About Us */
+        .about-us {
+            width: 30%;
+            background: #ffffff;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .about-us h2 {
+            font-size: 20px;
+            margin-bottom: 15px;
+        }
+
+        .about-us p {
+            font-size: 14px;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        .about-us img {
+            width: 100%;
+            height: auto;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <!-- Left Section - Card List -->
+        <div class="card-list">
+            <?php
+            // Generate multiple cards dynamically
+            for ($i = 0; $i < 8; $i++) {
+                echo '
+                <div class="card">
+                    <img src="https://via.placeholder.com/50" alt="Icon">
+                    <div class="card-content">
+                        <div class="card-title">Saga HR (Human Resources)</div>
+                        <p>
+                            HR drives success. They manage resources, recruit talent, and 
+                            enhance performance—creating value in organizations.
+                        </p>
+                    </div>
+                </div>';
+            }
+            ?>
+        </div>
+
+        <!-- Right Section - About Us -->
+        <div class="about-us">
+            <h2>About Us</h2>
+            <p>
+                At SagaSoft, we empower growth by creating technological solutions that drive 
+                business innovation. Our suite of applications is designed to optimize 
+                processes and drive excellence in platforms like SagaHR, SagaERP, and more.
+            </p>
+            <img src="https://via.placeholder.com/300x200" alt="About Us Image">
+        </div>
+    </div>
+</body>
+</html>

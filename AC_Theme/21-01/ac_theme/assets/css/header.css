@@ -1,0 +1,479 @@
+body{
+  background-color: #ffffff;
+}
+
+/* General Reset for Position Absolute */
+.pos-abs {
+  position: absolute;
+}
+
+/* Common Styles */
+.font-manrope {
+  font-family: 'Manrope', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* Adjusted for better consistency */
+  display: flex;
+  align-items: center;
+}
+
+/* Rectangle */
+.rectangle-1-14 {
+  width: 100%;
+  max-width: 1500px; 
+  background: #234982; 
+  padding: 20px 10px ;
+}
+/* Vertical Divider */
+.rectangle-1-14 .divider {
+  width: 1px;
+  height: 30px; 
+  background: #E0E0E0;
+  margin: 15px; 
+}
+
+/* Phone Number */
+.c-91-81248-14525-18 {
+  width: 100%;
+  height: 14px;
+  left: 35px;
+  top: 13px;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+/* Email */
+.examplecoolairc-116 {
+  width: 100%;
+  height: 12px;
+  left: 21px;
+  top: 0px;
+  color: #ffffff;
+  font-size: 14px;
+  left: 215px;
+  top: 13px;
+}
+
+/* Working Hours */
+.mon--fri-0800---117 {
+  width: 100%;
+  height: 13px;
+  left: 430px;
+  top: 13px;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+/* Shared styles for small icons */
+#phone-logo, 
+#mail-logo,
+#time-logo {
+  width: 20px; 
+  height: 20px;
+  object-fit: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+/* Default positions for larger screens */
+#phone-logo {
+  left: 8px;
+  top: 12px;
+}
+
+#mail-logo {
+  left: 180px;
+  top: 12px;
+}
+
+#time-logo {
+  left: 400px;
+  top: 12px;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 1200px) {
+  #phone-logo {
+    left: 20px; /* Adjust icon position for smaller screens */
+    top: 10px;
+  }
+
+  #mail-logo {
+    left: 120px;
+    top: 10px;
+  }
+
+  #time-logo {
+    left: 250px;
+    top: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #phone-logo,
+  #mail-logo,
+  #time-logo {
+    width: 16px; /* Reduce icon size */
+    height: 16px;
+  }
+
+  #phone-logo {
+    left: 10px;
+    top: 15px;
+  }
+
+  #mail-logo {
+    left: 80px;
+    top: 15px;
+  }
+
+  #time-logo {
+    left: 160px;
+    top: 15px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #phone-logo,
+  #mail-logo,
+  #time-logo {
+    width: 12px; /* Further reduce icon size */
+    height: 12px;
+  }
+
+  #phone-logo {
+    left: 5px;
+    top: 20px;
+  }
+
+  #mail-logo {
+    left: 50px;
+    top: 20px;
+  }
+
+  #time-logo {
+    left: 100px;
+    top: 20px;
+  }
+}
+
+
+/* Logo */
+#company-logo {
+  width: 180px; /* Small icon size */
+  height: 180px;
+  object-fit: contain;
+  justify-content: center;
+  align-items: center;
+  top: -32px ;
+  z-index: 150;
+}
+
+/* Navbar Links */
+.navbar div {
+  position: relative;
+}
+
+.navbar a,
+.navbar span {
+  color: #ed8585;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.home-45{
+  color: #ed8585;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  left: 150px;
+  z-index: 100;
+}
+
+.pages-1014{
+  color: #ed8585;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  left: 80px;
+  z-index: 100;
+}
+
+.services-1020{
+  color: #ed8585;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  /* right: 0px; */
+  left: 10px;
+  top: 0%;
+  z-index: 100;
+}
+
+.projects-1026{
+  color: #ed8585;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  right: 60px;
+  z-index: 100;
+}
+
+.blog-1027{
+  color: #ed8585;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  right: 140px;
+  z-index: 100;
+}
+
+.contact-1033 {
+  color: #ed8585;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  right: 210px;
+  z-index: 100;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* Dropdown Arrows */
+.chevron-down-40107 img,
+.chevron-down-40108 img,
+.chevron-down-40110 img,
+.chevron-down-40112 img {
+  width: 16.9px;
+  height: 16px;
+  position: absolute;
+  z-index: 100;
+}
+
+/* Default positions for larger screens */
+.chevron-down-40107 img {
+  left: 285px;
+}
+
+.chevron-down-40108 img {
+  left: 395px;
+}
+
+.chevron-down-40110 img {
+  left: 528px;
+}
+
+.chevron-down-40112 img {
+  left: 740px;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 1200px) {
+  .chevron-down-40107 img {
+    left: 230px; /* Adjust position */
+  }
+
+  .chevron-down-40108 img {
+    left: 300px;
+  }
+
+  .chevron-down-40110 img {
+    left: 380px;
+  }
+
+  .chevron-down-40112 img {
+    left: 500px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .chevron-down-40107 img,
+  .chevron-down-40108 img,
+  .chevron-down-40110 img,
+  .chevron-down-40112 img {
+    width: 14px; /* Reduce size */
+    height: 14px;
+  }
+
+  .chevron-down-40107 img {
+    left: 150px;
+  }
+
+  .chevron-down-40108 img {
+    left: 220px;
+  }
+
+  .chevron-down-40110 img {
+    left: 300px;
+  }
+
+  .chevron-down-40112 img {
+    left: 400px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .chevron-down-40107 img,
+  .chevron-down-40108 img,
+  .chevron-down-40110 img,
+  .chevron-down-40112 img {
+    width: 12px; /* Further reduce size */
+    height: 12px;
+  }
+
+  .chevron-down-40107 img {
+    left: 100px;
+  }
+
+  .chevron-down-40108 img {
+    left: 150px;
+  }
+
+  .chevron-down-40110 img {
+    left: 200px;
+  }
+
+  .chevron-down-40112 img {
+    left: 250px;
+  }
+}
+
+
+
+/* Schedule Now */
+.schedule-now-1043 {
+  right: 24.64px;
+  top: 11px;
+  background: #1e4e7d;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
+  top: -1.5px;
+  z-index: 100;
+}
+
+/* Navbar Parent */
+.navbar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 20px;
+  top: 35px;
+}
+
+/* Dropdown Button */
+.pages-1014 {
+  position: relative;
+  cursor: pointer;
+}
+
+/* Dropdown Menu */
+.pages-1014 .dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%; 
+  left: 0;
+  background: #FFFFFF;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 5px;
+  z-index: 10;
+  width: 110px;
+}
+
+/* Dropdown Menu Links */
+.pages-1014 .dropdown-menu a {
+  display: block;
+  padding: 1px 25px;
+  color: #0A2540;
+  text-decoration: none;
+  font-family: 'Manrope', sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+}
+
+.pages-1014 .dropdown-menu a:hover {
+  background-color: #F4F7FB;
+  color: #0A2540;
+  border-radius: 5px;
+}
+
+/* Show Dropdown on Hover */
+.pages-1014:hover .dropdown-menu {
+  display: block;
+}
+
+
+/* Social Icons Container */
+.social-icons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  position: fixed; /* Fix the position relative to the viewport */
+  top: 20px; /* Distance from the top of the viewport */
+  left: 50%;
+  transform: translateX(-50%); /* Center horizontally */
+  z-index: 1000; /* Ensure icons stay on top */
+}
+/* Social Media Icons */
+.facebook-118 img,
+.x-119 img,
+.youtube-122 img,
+.pinterest-120 img,
+.instagram-121 img {
+  width: 24px; /* Fixed size for icons */
+  height: 24px;
+  object-fit: contain;
+}
+
+/* Individual Icon Wrappers */
+.facebook-118,
+.x-119,
+.youtube-122,
+.pinterest-120,
+.instagram-121 {
+  position: absolute; /* Use absolute positioning for these icons */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 23px; /* Adjust top position if needed */
+}
+
+/* Position adjustments */
+.facebook-118 {
+  left: 1100px; /* Fixed position from the left */
+}
+
+.x-119 {
+  left: 1150px; /* Fixed position from the left */
+}
+
+.youtube-122 {
+  left: 1200px; /* Fixed position from the left */
+}
+
+.pinterest-120 {
+  left: 1250px; /* Fixed position from the left */
+}
+
+.instagram-121 {
+  left: 1300px; /* Fixed position from the left */
+}
+

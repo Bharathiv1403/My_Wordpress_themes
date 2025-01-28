@@ -1,0 +1,129 @@
+.rwmb-field.rwmb-image_select-wrapper.custom-header .rwmb-image-select {
+    width: 48%;
+    height: 100%;
+}
+
+.rwmb-field.rwmb-image_select-wrapper.custom-footer .rwmb-image-select {
+    width: 494px;
+    height: 130px;
+}
+
+.edit-post-layout .interface-interface-skeleton__content {
+    background: #f4f4f4;
+}
+
+.rwmb-default .postbox-header {
+    background: #f4f4f4;
+}
+
+.rwmb-default .postbox-header h2,
+.rwmb-default .postbox-header .order-higher-indicator,
+.rwmb-default .postbox-header .order-lower-indicator,
+.rwmb-default .postbox-header .toggle-indicator {
+    color: #222!important;
+}
+
+.redux-container .form-table>tbody>tr>th {
+    width: 18%;
+}
+
+.redux-container-image_select ul.redux-image-select li {
+    padding-right: 4px;
+}
+
+.redux-container-image_select .redux-image-select img,
+.redux-container-image_select .redux-image-select-selected img,
+.redux-container-image_select .redux-image-select .tiles,
+.redux-container-image_select .redux-image-select-selected .tiles {
+    border-width: 2px;
+}
+.edit-post-layout__metaboxes{
+    padding-bottom: 50px!important;
+    padding-top: 50px!important;
+    position: relative;
+    background: #fff!important;
+}
+
+.rwmb-heading-wrapper{
+    display: block!important;
+    width: 100%!important;
+}
+
+
+.vc_element-icon.icon-creote-svg {
+    background-image: url(../images/vc-logo.png)!important;
+    height: 32px!important;
+    width: 32px!important;
+    background-repeat: no-repeat!important;
+    background-size: contain!important;
+}
+.merlin__body{
+    background: #f0f3f9!important;
+}
+
+
+.creote_admin_boxed{
+    padding: 50px;
+    position: relative;
+}
+.creote_admin_boxed p{
+    font-size: 15px;
+    line-height: 26px;
+}
+.creote_panel_top , .theme_authour_panel   {
+    padding: 50px;
+    text-align: center;   
+    overflow: hidden;
+     position: relative;
+}
+.bg_n_image{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.bg_n_image img{
+    width: 100%;
+    height: auto;
+}
+.about_creote_panel , .about_steelthemes{
+    position: relative;
+    z-index: 2;
+}
+
+.about_creote_panel h1 , .about_steelthemes h1{
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 600;
+    color: #fff;
+    display: inline-block;
+    padding: 0px!important;
+    margin: 0px!important;
+    height: auto;
+}
+.about_steelthemes h1   {
+    color: #fff;
+}
+.about_steelthemes p {
+    color: rgba(255,255,255,.5);
+}
+.about_steelthemes h6{
+    color: #e41e1e;
+    font-size: 16px;
+    line-height: 26px;
+    padding: 0px!important;
+    margin: 0px 0px 12px!important;
+    height: auto;
+}
+.about_creote_panel h1 span{
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.theme_creote_register{
+    padding: 100px 20px;
+    text-align: center;
+}

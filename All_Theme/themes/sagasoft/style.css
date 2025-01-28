@@ -1,0 +1,27 @@
+/* 
+
+Theme Name: Sagasoft
+Author: Bharathi
+Version: 1.0
+Description: this is a sagasoft themes with sharp edges for that slick look
+Tags: razor. sharp, slick, cool, blogs 
+
+*/
+ 
+.body{
+    background-color: red;
+    font-size: 48px;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.pages-numbers{
+    display: inline-block;
+    padding: 5px;
+    border: solid thin #aaa;
+    background-color: bisque;
+    border-radius: 7px;
+}
